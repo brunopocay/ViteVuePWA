@@ -1,4 +1,4 @@
-name: DeployViteVueJs
+name: Deploy
 
 on: 
   push:
