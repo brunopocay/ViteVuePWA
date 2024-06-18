@@ -29,10 +29,13 @@ export default defineConfig({
       }
     })
   ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  },
-  base: '/ViteVuePWA/' // Base URL necessária para GitHub Pages
+  // resolve: {
+  //   alias: {
+  //     '@': fileURLToPath(new URL('./src', import.meta.url))
+  //   }
+  // },
+  base: '/ViteVuePWA/', // Adicione esta linha
+  build: {
+    outDir: 'dist'
+  }
 })
