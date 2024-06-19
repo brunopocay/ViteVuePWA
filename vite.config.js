@@ -11,7 +11,7 @@ export default defineConfig({
       manifest: {
         name: "PokeVite",
         short_name: "PokeVite",
-        start_url: "/ViteVuePWA/",
+        start_url: "/pokevite",
         icons: [
           {
             src: "/android-chrome-192x192.png",
@@ -35,5 +35,5 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: "/ViteVuePWA/",
+  base: "/pokevite",
 });
